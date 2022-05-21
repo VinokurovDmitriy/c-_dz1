@@ -13,5 +13,4 @@ int NumSum( int num )
        return ((num % 10) + NumSum( num / 10 ));
     }
 }
-
 Console.WriteLine($"Сумма цифр числа {n} = {NumSum(n)}");
